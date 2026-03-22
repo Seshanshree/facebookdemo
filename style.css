@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(247, 243, 239, 0.897);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    color: rgb(17, 0, 255);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    height: 607px;
+}
+.container{
+    box-shadow: rgba(0, 0, 0, 0.247) 2px 2px 8px 3px;
+    border-radius: 8px;
+    width: 430px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container h2,.p1, h4{
+    text-align: center;
+    margin-top: 8px;
+}
+.p1{
+    font-weight: 1000;
+    color: rgba(0, 0, 0, 0.658);
+    margin-bottom: 15px;
+}
+form input{
+    border-radius: 5px;
+    border: 1.2px solid rgba(0, 0, 0, 0.349);
+}
+form select{
+    border-radius: 5px;
+    border: 1.2px solid rgba(0, 0, 0, 0.349);
+}
+form{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.inputtag{
+    padding: 7px;
+}
+.inputtag::placeholder{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.644);
+}
+#selecttag{
+    margin-top: 5px;
+    padding: 4px;
+    width: 121.95px;
+    margin-bottom: 8px;
+}
+#num{
+    width: 92.5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.labelcontainer{
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: .1px solid rgba(0, 0, 0, 0.445);
+    width: 92.5%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.349);
+}
+span{
+    color: blue;
+}
+button{
+    display: block;
+    margin: 0px auto;
+    padding: 5px 60px;
+    background-color: rgb(21, 211, 14);
+    border-radius: 6px;
+    border: none;
+    color: rgb(245, 245, 244);
+    font-weight: bold;
+    font-size: 20px;
+}
+h4{
+    color: rgba(0, 89, 255, 0.877);
+}
+.para{
+    margin-right: 9px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    body{
+        padding: 10px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .name{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputtag{
+        width: 92.5%;
+        margin-bottom: 6px;
+    }
+
+    #selecttag{
+        width: 30%;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    button{
+        padding: 8px 40px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .container{
+        width: 80%;
+    }
+
+    .name{
+        display: flex;
+        gap: 6px;
+    }
+
+    .inputtag{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+}
