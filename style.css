@@ -122,6 +122,8 @@ a{
 
     .container{
         width: 100%;
+        height: 630px;
+        
     }
 
     .name{
@@ -131,7 +133,7 @@ a{
 
     .inputtag{
         width: 92.5%;
-        margin-bottom: 6px;
+        margin-bottom: 10px;
     }
 
     #selecttag{
@@ -139,12 +141,17 @@ a{
     }
 
     h1{
+        margin-top: 80px;
         font-size: 28px;
+        font-size: 60px;
+    }
+    h2{
+        font-size: 40px;
     }
 
     button{
-        padding: 8px 40px;
-        font-size: 16px;
+        padding: 8px 60px;
+        font-size: 25px;
     }
 }
 
